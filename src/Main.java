@@ -11,7 +11,7 @@ public class Main{
             throws IOException {
         task curtask = new task();
         curtask.addJarFile("DijkstraParcs.jar");
-        Graph graph = new Graph(curtask.findFile("input"));
+        Graph graph = new Graph(curtask.findFile("out3000.txt"));
         AMInfo info = new AMInfo(curtask, null);
 //        Graph graph = new Graph("graph");
         int len = graph.names.size();
